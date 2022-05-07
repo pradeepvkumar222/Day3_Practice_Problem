@@ -15,22 +15,22 @@ public class EmpPresentorAbs {
         }
         return ifEmpPres;
     }
-            public int dailyWage()
-            {
-                int daily_wage = 0;
-                if (isEmpPres()) {
-                    daily_wage = WAGE_PER_HR * FULL_DAY_HR;
-                } else {
-                    daily_wage = 0;
-                }
-                return daily_wage;
-            }
-
-        public static void main (String[]args){
-            EmpPresentorAbs EmpPres = new EmpPresentorAbs();
-            System.out.println("Today employee is present :" + EmpPres.isEmpPres());
-            //System.out.println("Today's wage is :" + EmpPres.dailyWage());
+    public int dailyWage()
+    {
+        int daily_wage = 0;
+        if (isEmpPres()) {
+            daily_wage = WAGE_PER_HR * FULL_DAY_HR;
+        } else {
+            daily_wage = 0;
         }
-}
+        return daily_wage;
+    }
+
+    public static void main (String[]args){
+        EmpPresentorAbs EmpPres = new EmpPresentorAbs();
+        System.out.println("Today employee is present :" + EmpPres.isEmpPres());
+        //System.out.println("Today's wage is :" + EmpPres.dailyWage());
+    }
+    }
 
 
