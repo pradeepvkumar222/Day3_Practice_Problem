@@ -2,7 +2,7 @@ package com.Bridgelab;
 import java.util.Scanner;
 
 
-public class Problem02 {
+public class ReverseTheIntegerNum {
 public static void main(String [] args){
     // Write a Program to reverse the integer number eg: Input n=231 reverse is 132
     Scanner scanner = new Scanner(System.in);

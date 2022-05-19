@@ -1,6 +1,6 @@
 package com.Bridgelab;
 
-public class Problem03 {
+public class SumOfNnaturalNum {
     public static void main(String [] args) {
         // write a program for the sum of N natural number  Eg: Input N=5 Output 1+2+3+4+5
         int num = 5, sum = 0;

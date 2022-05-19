@@ -1,6 +1,6 @@
 package com.Bridgelab;
 import java.util.Scanner;
-public class Problem01 {
+public class SumOfNaturalNum {
     public static void main(String[] args) {
         //write program for the sum of natural numbers eg: Input N=5 Output 1+2+3+4+5
         Scanner number = new Scanner(System.in);

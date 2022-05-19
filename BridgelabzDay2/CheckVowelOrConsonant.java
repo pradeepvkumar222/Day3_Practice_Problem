@@ -1,7 +1,8 @@
 package com.Bridgelab;
 import java.util.Scanner;
 
-public class problem05 {
+public class CheckVowelOrConsonant {
+    //Write a Program to Check Vowel or Consonant
     public static void main(String [] args){
         boolean isVowel = false;
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +12,7 @@ public class problem05 {
         switch(ch)
         {
             case 'a' :
-                case 'e' :
+             case 'e' :
             case 'i' :
             case 'o' :
             case 'u' :

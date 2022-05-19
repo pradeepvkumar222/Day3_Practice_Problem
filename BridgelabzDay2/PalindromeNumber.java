@@ -1,7 +1,7 @@
 package com.Bridgelab;
 import java.util.Scanner;
 
-public class Problem04 {
+public class PalindromeNumber {
     //Write a Program to find Palindrome Number
     public static void main(String [] args){
         int num,t,s,rem;

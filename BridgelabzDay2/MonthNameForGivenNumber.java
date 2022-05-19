@@ -1,6 +1,6 @@
 package com.Bridgelab;
 import java.util.Scanner;
-public class Problem06 {
+public class MonthNameForGivenNumber {
     //Write a Program to print the month name for the given number
 
     public static void main(String [] args){
